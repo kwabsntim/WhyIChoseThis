@@ -1,0 +1,7 @@
+baseURL = 'https://kwabsntim.github.io/why-i-chose-this/'
+languageCode = 'en-us'
+title = 'Why I Chose This'
+
+[params]
+  description = "Real stories from students and professionals about the courses they chose, what they use to learn, and where it's taken them."
+  author = "Why I Chose This"
