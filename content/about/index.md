@@ -32,4 +32,4 @@ Be mentally and physically strong. That is not a joke. But if you have a genuine
 
 ---
 
-*I built WhyIChoseThis because nobody told me the truth about my course before I started. Not the brochures, not the seniors, nobody. I figured most students felt the same way. This site is the honest guide I wish I had. [Share your story →](/submit)*
+ *"WhyIChoseThis" started from one obsession, why did you choose that course? What did you do with it after? What is its actually like from the inside? This site collects those stories, from students in the thick of it and professionals on the other side. It gets updated as new stories come in. [Share yours here →](/submit)*
