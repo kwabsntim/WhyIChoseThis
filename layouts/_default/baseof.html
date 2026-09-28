@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+  </title>
+  
+  <!-- Satoshi Font Delivery -->
+    
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap"
+   rel="stylesheet">
+  
+  <!-- Reference your style file -->
+  <link rel="stylesheet" href="{{ "static/style.css " | relURL }}">
+</head>
+<body>
+
+  {{ partial "header.html" . }}
+
+  <div class="container">
+    {{ block "main" . }}{{ end }}
+  </div>
+
+  {{ partial "footer.html" . }}
+
+</body>
+</html>
