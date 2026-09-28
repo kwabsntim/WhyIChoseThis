@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Why I Chose This</title>
-		<link>http://localhost:1313/WhyIChoseThis/</link>
-		<description>Recent content on Why I Chose This</description>
+		<title>Why I Chose This! on Why I Chose This</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Why I Chose This! on Why I Chose This</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<atom:link href="http://localhost:1313/WhyIChoseThis/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Howdy! I am Peter Prince but people call me kwabsntim or kwabs for short. I built this site and I run it. If you want to help me maintain it, I am very open to that. But first read my interview below and then we can talk.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who are you?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am prince, an Electrical and Electronics Engineering graduate from UMaT. Just graduated this year and currently waiting for my NSS postings, so yes, I am in that in-between phase.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

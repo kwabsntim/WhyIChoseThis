@@ -34,7 +34,9 @@ a {
 a:hover {
   opacity: 0.7;
 }
-
+.homepage-title{
+    color: #E85D04
+}
 /* --- Layout Architecture --- */
 .container {
   max-width: var(--container-width);
@@ -173,4 +175,64 @@ p, ul {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* --- Interview Page --- */
+.interview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.interview-meta {
+  flex: 1;
+}
+
+.interview-photo-wrap {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.interview-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border: 2px solid var(--text-color);
+}
+
+.interview-photo-date {
+  font-size: 0.75rem;
+  color: var(--meta-color);
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.interview-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.interview-course {
+  font-size: 1rem;
+  color: var(--meta-color);
+  margin-bottom: 4px;
+}
+
+.interview-content strong {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  color: var(--text-color);
+}
+
+.interview-content p {
+  color: var(--text-color);
+  line-height: 1.8;
 }

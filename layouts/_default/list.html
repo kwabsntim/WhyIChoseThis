@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section class="interview-list">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Description }}</p>
+
+  <hr>
+
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="interview-card">
+    <span class="interview-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <div class="interview-card-body">
+      <h2><a href="{{ .RelPermalink }}">{{ .Params.name | default .Title }}</a></h2>
+      <p class="interview-card-course">{{ .Params.course | default .Params.course_studied }}</p>
+      <p class="interview-card-summary">{{ .Summary }}</p>
+    </div>
+  </article>
+  {{ end }}
+
+</section>
+
+{{ end }}

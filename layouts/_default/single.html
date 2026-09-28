@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<article class="interview">
+
+  <header class="interview-header">
+    <div class="interview-meta">
+      <h1 class="interview-name">{{ .Params.name | default .Title }}</h1>
+      <p class="interview-course">{{ .Params.course | default .Params.course_studied }}</p>
+    </div>
+
+    {{ if .Params.photo }}
+    <div class="interview-photo-wrap">
+      <img src="{{ .Params.photo }}" alt="{{ .Params.name }}" class="interview-photo">
+      <p class="interview-photo-date">{{ .Date.Format "January 2, 2006" }}</p>
+    </div>
+    {{ end }}
+  </header>
+
+  <hr>
+
+  <div class="interview-content">
+    {{ .Content }}
+  </div>
+
+</article>
+
+{{ end }}

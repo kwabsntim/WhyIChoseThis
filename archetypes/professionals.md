@@ -10,7 +10,7 @@ photo: ""   # /images/interviews/jane-smith.jpg
 
 <!-- "I am Jane, I work at AngloGold as an exploration geologist and I have been here for 5 years..." -->
 
-**What did you study?**
+**Which school did you attent and which course did you study?**
 
 <!-- "I studied Earth Science at UG, graduated in 2018..." -->
 
