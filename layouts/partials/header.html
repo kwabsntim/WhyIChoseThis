@@ -1,14 +1,14 @@
 <header class="site-header">
   <div class="header-container">
     
-    <a href="{{ "/" | absURL }}" class="site-logo">
+    <a href="{{ .Site.BaseURL }}" class="site-logo">
       <img src="{{ "images/logo.jpeg" | relURL }}" alt="Why I Chose This" class="logo-img">
     </a>
 
     <nav class="site-nav">
-      <a href="{{ "/categories/" | absURL }}">Categories</a>
-      <a href="{{ "/interviews/" | absURL }}">Stories</a>
-      <a href="{{ "/about/" | absURL }}">About</a>
+      <a href="{{ .Site.BaseURL }}categories/">Categories</a>
+      <a href="{{ .Site.BaseURL }}interviews/">Stories</a>
+      <a href="{{ .Site.BaseURL }}about/">About</a>
     </nav>
 
   </div>
