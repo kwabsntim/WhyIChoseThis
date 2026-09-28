@@ -3,7 +3,7 @@ title: "About"
 date: 2026-09-28
 name: "Peter Prince"
 course: "Electrical Engineer, Programmer"
-photo: "/WhyIChoseThis/images/interviews/kwabsntim.jpeg"
+photo: "/images/interviews/kwabsntim.jpeg"
 ---
 
 Howdy! I am Peter Prince but people call me kwabsntim or kwabs for short. I built this site and I run it. If you want to help me maintain it, I am very open to that. But first read my interview below and then we can talk.

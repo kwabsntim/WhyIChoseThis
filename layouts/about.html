@@ -10,7 +10,7 @@
 
     {{ if .Params.photo }}
     <div class="interview-photo-wrap">
-      <img src="{{ .Params.photo }}" alt="{{ .Params.name }}" class="interview-photo">
+      <img src="{{ .Params.photo | relURL }}" alt="{{ .Params.name }}" class="interview-photo">
       <p class="interview-photo-date">{{ .Date.Format "January 2, 2006" }}</p>
     </div>
     {{ end }}
