@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <section>
+        <h1>{{ .Title }}</h1>
+        <p>Real stories from students and professionals about the courses they chose, what they use to learn, and how it's going so far.</p>
+
+        <a href="https://tally.so" class="submit-btn" target="_blank" rel="noopener">Share Your Story &rarr;</a>
+    </section>
+    <hr>
+    <section class="interviews">
+        <h2>recent stories</h2>
+        <div class="interview-list">
+            {{ range first 5 (where .Site.RegularPages "Type" "interview") }}
+                <article class="interview-item">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <p>{{ .Summary }}</p>
+                </article>
+            {{ end }}
+
+    </section>
+
+{{end}}
