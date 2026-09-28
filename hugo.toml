@@ -1,4 +1,4 @@
-baseURL = 'https://kwabsntim.github.io/WhyIChoseThis/'
+baseURL = 'https://wict.vercel.app/'
 locale = 'en-us'
 title = 'Why I Chose This'
 
