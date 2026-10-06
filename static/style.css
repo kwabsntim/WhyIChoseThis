@@ -236,3 +236,118 @@ p, ul {
   color: var(--text-color);
   line-height: 1.8;
 }
+
+/* --- Interview List & Cards --- */
+.section-description {
+  color: var(--meta-color);
+  margin-bottom: 0;
+}
+
+.interview-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+.card-photo {
+  flex-shrink: 0;
+}
+
+.card-photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--text-color);
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-meta {
+  font-size: 0.8rem;
+  color: var(--meta-color);
+  margin-bottom: 6px;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.card-body h2 a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 4px;
+}
+
+.card-body h2 a:hover {
+  opacity: 0.7;
+}
+
+.card-summary {
+  font-size: 0.95rem;
+  color: var(--meta-color);
+  margin-bottom: 0;
+  line-height: 1.6;
+  pointer-events: none;
+}
+
+/* Mobile — stack photo on top */
+@media (max-width: 480px) {
+  .interview-card {
+    flex-direction: column;
+  }
+
+  .card-photo img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* --- All Interviews Link --- */
+.older-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.older-link:hover {
+  opacity: 0.7;
+}
+
+/* --- Read More Link --- */
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.read-more:hover {
+  opacity: 0.7;
+}
+
+/* --- Back Link --- */
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.back-link:hover {
+  opacity: 0.7;
+}

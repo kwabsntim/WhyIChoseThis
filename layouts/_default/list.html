@@ -1,20 +1,30 @@
 {{ define "main" }}
 
 <section class="interview-list">
+
   <h1>{{ .Title }}</h1>
-  <p>{{ .Description }}</p>
+  <p class="section-description">{{ .Description }}</p>
 
   <hr>
 
   {{ range .Pages.ByDate.Reverse }}
   <article class="interview-card">
-    <span class="interview-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-    <div class="interview-card-body">
-      <h2><a href="{{ .RelPermalink }}">{{ .Params.name | default .Title }}</a></h2>
-      <p class="interview-card-course">{{ .Params.course | default .Params.course_studied }}</p>
-      <p class="interview-card-summary">{{ .Summary }}</p>
+
+    {{ if .Params.photo }}
+    <div class="card-photo">
+      <img src="{{ .Params.photo | relURL }}" alt="{{ .Params.name }}">
     </div>
+    {{ end }}
+
+    <div class="card-body">
+      <p class="card-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .Params.course | default .Params.course_studied }}</p>
+      <h2><a href="{{ .RelPermalink }}">{{ .Params.name | default .Title }}</a></h2>
+      <p class="card-summary">{{ .Summary | truncate 100 }}</p>
+      <a href="{{ .RelPermalink }}" class="read-more">Read more &rarr;</a>
+    </div>
+
   </article>
+  <hr>
   {{ end }}
 
 </section>
