@@ -1,3 +1,4 @@
+![Uploading Gemini_Generated_Image_qo05lpqo05lpqo05.jpeg…]()
 # Why I Chose This
 
 A collection of honest interviews with students and professionals.
