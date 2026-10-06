@@ -8,7 +8,7 @@ Just people telling the truth about their courses and careers.
 
 ---
 
-Want to share your story? [Submit an interview →](https://whyichosethis.com/submit)
+Want to share your story? [Submit an interview →](https://whyichosethis.com/submit) we will review it and post it on the site for you.
 
 ---
 
