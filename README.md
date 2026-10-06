@@ -1,4 +1,5 @@
-![Uploading Gemini_Generated_Image_qo05lpqo05lpqo05.jpeg…]()
+
+https://wict.vercel.app/images/logo.jpeg
 
 # Why I Chose This
 
