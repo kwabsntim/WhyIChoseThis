@@ -2,20 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/interviews/ama-mensah/</loc>
+    <loc>https://wict.vercel.app/interviews/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wict.vercel.app/interviews/kofi-asante/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wict.vercel.app/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wict.vercel.app/interviews/ama-mensah/</loc>
     <lastmod>2026-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/interviews/</loc>
-    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wict.vercel.app/about/</loc>
     <lastmod>2026-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wict.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wict.vercel.app/submit/</loc>
+  </url><url>
+    <loc>https://wict.vercel.app/tags/</loc>
   </url>
 </urlset>

@@ -48,7 +48,7 @@ a:hover {
 hr {
   border: 0;
   border-top: 1px solid var(--border-color);
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 /* --- Header System --- */
@@ -247,8 +247,8 @@ p, ul {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 24px;
-  padding: 32px 0;
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .card-photo {
@@ -256,8 +256,8 @@ p, ul {
 }
 
 .card-photo img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   object-position: center top;
   border: 2px solid var(--text-color);
@@ -268,15 +268,15 @@ p, ul {
 }
 
 .card-meta {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--meta-color);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .card-body h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .card-body h2 a {
@@ -291,10 +291,10 @@ p, ul {
 }
 
 .card-summary {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--meta-color);
   margin-bottom: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   pointer-events: none;
 }
 
@@ -327,8 +327,8 @@ p, ul {
 /* --- Read More Link --- */
 .read-more {
   display: inline-block;
-  margin-top: 10px;
-  font-size: 0.85rem;
+  margin-top: 6px;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--accent-color);
   text-decoration: none;
@@ -350,4 +350,18 @@ p, ul {
 
 .back-link:hover {
   opacity: 0.7;
+}
+
+/* --- Submit Page --- */
+.submit-page {
+  max-width: 100%;
+}
+
+.submit-description {
+  color: var(--meta-color);
+  margin-bottom: 32px;
+}
+
+.tally-embed {
+  margin-top: 24px;
 }

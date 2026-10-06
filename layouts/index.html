@@ -3,7 +3,7 @@
 <section class="hero">
   <h1>{{ .Title }}</h1>
   <p>{{ .Params.tagline }}</p>
-  <a href="https://tally.so" class="submit-btn" target="_blank" rel="noopener">Share Your Story &rarr;</a>
+  <a href="{{ "/submit/" | relURL }}" class="submit-btn">Share Your Story &rarr;</a>
 </section>
 
 <hr>
